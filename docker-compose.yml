@@ -7,7 +7,7 @@ services:
       MYSQL_PASSWORD: wordpress_user_password
       MYSQL_ROOT_PASSWORD: password_of_your_choice
       MYSQL_USER: wordpress_user
-    image: "mysql:5.7"
+    image: "mysql:8.0"
     restart: always
     volumes: 
       - "mysql:/var/lib/mysql"
